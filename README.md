@@ -32,4 +32,8 @@ eXist Server installation via docker.
 		* click the open-Tab -> apps -> tei-simple -> doc -> documentation.xml
 		* click the run-Tab 
 			* If the run-Tab is disabled, reload the site
-		
+
+## pdflatex
+for using pdflatex the path to the binary has to be altered:
+ - go to [eXide](http://localhost:8080/exist/apps/eXide/index.html?open=/db/apps/tei-simple/modules/latex.xql) and
+ - change `/usr/local/bin/pdflatex` to `/usr/bin/pdflatex` at line 28
